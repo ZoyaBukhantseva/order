@@ -98,6 +98,7 @@ img {
   .order__tittle {
     text-align: left;
     font-size: 48px;
+    margin-bottom: 24px;
   }
 }
 .order__item {
@@ -136,7 +137,6 @@ img {
 }
 .order__list {
   width: 100%;
-  margin: 0;
 }
 
 .image-wrap {
@@ -293,7 +293,7 @@ img {
     width: 400px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -529,6 +529,22 @@ img {
   color: #ffffff;
 }
 
+.button {
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 400px;
+    height: 56px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .button {
+    width: 555px;
+    height: 56px;
+  }
+}
+
 .order__btn {
   width: 100%;
 }
@@ -536,15 +552,12 @@ img {
   .order__btn {
     width: 177px;
     position: absolute;
-    top: 105%;
-    right: 155px;
+    right: 0;
   }
 }
 @media screen and (min-width: 1440px) {
   .order__btn {
-    width: 177px;
     position: absolute;
-    bottom: 0;
     right: 0;
   }
 }
@@ -571,28 +584,63 @@ img {
 @media screen and (min-width: 1440px) {
   .other-subtittle {
     text-align: right;
+    margin-bottom: 18px;
   }
 }
 
-.contact__list {
-  margin-bottom: 24px;
+.contact__item {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.11;
+  color: #2B2B2B;
+}
+@media screen and (min-width: 1440px) {
+  .contact__item {
+    font-size: 18px;
+  }
+}
+
+.contact__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1440px) {
+  .contact__item:not(:last-child) {
+    margin-bottom: 18px;
+  }
 }
 
 .contact__link {
-  font-family: "Montserrat Alternates";
+  font-family: "Cera Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
   color: #2B2B2B;
 }
+@media screen and (min-width: 1440px) {
+  .contact__link {
+    font-size: 18px;
+  }
+}
 
 .email-wrap {
   margin-bottom: 24px;
 }
+@media screen and (min-width: 1440px) {
+  .email-wrap {
+    margin-bottom: 30px;
+  }
+}
 
 .tel-wrap {
   margin-bottom: 24px;
+}
+@media screen and (min-width: 1440px) {
+  .tel-wrap {
+    margin-bottom: 30px;
+  }
 }
 
 .time__item {
@@ -602,6 +650,20 @@ img {
   font-size: 16px;
   line-height: 1.25;
   color: #2B2B2B;
+}
+@media screen and (min-width: 1440px) {
+  .time__item {
+    font-size: 18px;
+  }
+}
+
+.time__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1440px) {
+  .time__item:not(:last-child) {
+    margin-bottom: 18px;
+  }
 }
 
 @media screen and (min-width: 768px) {

@@ -21,7 +21,7 @@
             width:400px;
             margin-right: auto;
             margin-left: auto;
-            margin-bottom: 120px;
+            margin-bottom: 60px;
         }
     @media screen and (min-width: 1440px){
         width: 555px;
@@ -198,20 +198,28 @@ display: block;
     background-color: rgba(72, 121, 150, 0.5);
     color: #ffffff;
 }
-
+.button{
+    position: relative;
+    @media screen and (min-width: 768px){
+        width: 400px;
+        height: 56px;
+    };
+         @media screen and (min-width: 1440px) {
+             width: 555px;
+             height: 56px;
+         }
+}
 .order__btn {
     width: 100%;
 @extend %btn;
 @media screen and (min-width: 768px){
     width: 177px;
         position: absolute;
-        top:  105%;
-        right: 155px;
+        right: 0
 }
 @media screen and (min-width: 1440px){
-    width: 177px;
+   
    position: absolute;
-   bottom: 0;
    right: 0;
 }
 }
